@@ -228,4 +228,7 @@ h1 {
 @media (max-width: 600px) {
   /* Styles for screens smaller than 600px */
 }
+<img src="small.jpg" srcset="medium.jpg 600w, large.jpg 1200w" alt="Responsive Image">
+<img src="image.jpg" loading="lazy" alt="Lazy Loaded Image">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
